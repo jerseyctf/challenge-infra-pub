@@ -1,11 +1,5 @@
-# Repo-Name
-- Description
-
-## :mag: Manual
-
-```txt
-
-```
+# challenge-infra-pub
+-  Infra that hosts challenges on a subdomain
 
 ## :hammer: How to Build
 
@@ -18,13 +12,13 @@
 ## :card_file_box: Directory Explanation
 
 ```s
-# Use tree to get a nicer graphical implementation
 .
-├───dir1        ; explanation of dir1
+├───vultr        ; vultr hcl config
 └───dir2        ; ---
 ```
 
 ## :warning: Disclaimer
+- use at your own risk
 
 ---
 
