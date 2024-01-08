@@ -1,5 +1,8 @@
 # vultr
 
+## Usage
+- Apply config
+
 ## Resources
 - [Terraform Registry](https://registry.terraform.io/providers/vultr/vultr/latest/docs/resources/instance#import)
 - [Vultr API](https://registry.terraform.io/providers/vultr/vultr/latest/docs/resources/instance#import)
