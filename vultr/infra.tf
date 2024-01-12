@@ -14,5 +14,6 @@ provider "vultr" {
 }
 
 resource "vultr_instance" "inst" {
-  plan = ""
+  region = var.location
+	plan = var.plan
 }
