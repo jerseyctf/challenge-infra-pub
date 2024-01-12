@@ -7,14 +7,44 @@ graph LR
   B --> C(Apply)
 ```
 
+- **Write**: Author infrastructure as code
+- **Plan**: Preview changes before applying
+- **Apply**: Provision reproducible infrastructure
 
 ## Usage
-- Apply config
+### Initialize
+```bash
+tofu init
+```
+- OpenTofu needs to create a lock file (.terraform.lock.hcl) to record the provider selections
+- **Necessary**, if you are doing this for the first time
 
+### Validate
+```bash
+tofu validate
+```
+- To check whether the conf is valid
 
+### Format
+```bash
+tofu fmt
+```
+- Re-format config in a standard style
 
+### Plan
+```bash
+tofu plan -var-file .tfvars
+```
 
+### Apply
+```bash
+tofu apply -var-file .tfvars
+```
 
+### Destroy
+```bash
+tofu apply -destroy 
+```
 
 
 ## Resources
