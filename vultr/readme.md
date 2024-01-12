@@ -43,7 +43,7 @@ tofu apply -var-file .tfvars
 
 ### Destroy
 ```bash
-tofu apply -destroy 
+tofu apply -destroy -var-file .tfvars
 ```
 
 
