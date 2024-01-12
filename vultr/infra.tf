@@ -14,6 +14,8 @@ provider "vultr" {
 }
 
 resource "vultr_instance" "inst" {
-  region = var.location
-  plan   = var.plan
+  region   = var.location
+  plan     = var.plan
+  os_id    = var.os
+  hostname = "chals" # maybe this: `hostname = var.hostname`, in future
 }

@@ -9,3 +9,11 @@ variable "location" {
 variable "plan" {
   type = string
 }
+
+variable "os" {
+  type = number
+}
+
+variable "hostname" {
+  type = string
+}

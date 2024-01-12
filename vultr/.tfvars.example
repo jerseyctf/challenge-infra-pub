@@ -2,3 +2,5 @@
 vultr_api_key=""
 location=""
 plan=""
+os=""
+hostname=""
