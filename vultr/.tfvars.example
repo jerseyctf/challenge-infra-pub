@@ -1,0 +1,6 @@
+# to get valid update stuff, run the `./update-vars.sh` script
+vultr_api_key=""
+location=""
+plan=""
+os=""
+hostname=""

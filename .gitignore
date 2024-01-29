@@ -1,6 +1,6 @@
 # Files
 *~
-
+.terraform.lock.hcl
 
 # Terraform Gitignore
 # Local .terraform directories
